@@ -131,3 +131,6 @@ print("전체 총 : {0}".format(gun))
 # checkpoint(2) # 2명이 경계 근무 나감
 gun = checkpoint_ret(gun, 2)
 print("남은 총 : {0}".format(gun))
+
+
+# 
