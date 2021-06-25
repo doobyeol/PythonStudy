@@ -76,3 +76,32 @@
 
     
 # 모듈
+# 함수정의나 클래스등 파이썬 문장들을 담고있는 파일. 확장자 py
+
+# 같은 경로이거나 파이썬 모듈이 모여있는 경로
+
+
+# import theater_module
+# theater_module.price(3)
+# theater_module.price_morning(4)
+# theater_module.price_soldier(5)
+
+# import theater_module as mv
+# mv.price(3)
+# mv.price_morning(4)
+# mv.price_soldier(5)
+
+# from theater_module import *
+# from random import *
+# price(3)
+# price_morning(4)
+# price_soldier(5)
+
+
+# from theater_module import price, price_morning
+# price(3)
+# price_morning(4)
+
+
+from theater_module import price_soldier as price
+price(4)  
